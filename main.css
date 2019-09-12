@@ -1,0 +1,102 @@
+
+html,body {
+font-family: 'Raleway', sans-serif;
+font-size: 18px;
+background: #000;
+color: #fff;
+padding: 0;
+margin: 0;
+}
+
+
+h1,h2 {
+font-weight: 400;
+margin: 0.4em 0;
+}
+
+h1 #Hello {
+font-weight:600;
+}
+
+h1 #Bravo{
+color:red;
+}
+
+h1 #Bravo #Charlie{
+color:orange;
+}
+
+h1 { font-size: 3.5em; }
+h2 {
+color: #888;
+font-size: 2em;
+}
+
+::-webkit-input-placeholder {
+    margin: auto;
+    padding : 30px;
+    text-align: center;
+    font-family:'roboto';
+  color: #888;
+  font-size: 20px;
+}
+::-moz-placeholder {
+    margin: auto;
+    padding : 30px;
+    text-align: center;
+    font-family:'roboto';
+  color: #888;
+  font-size: 20px;
+}
+:-ms-input-placeholder {
+    margin: auto;
+    padding : 30px;
+    text-align: center;
+    font-family:'roboto';
+    color: #888;
+    font-size: 20px;
+}
+::placeholder {
+    margin: auto;
+    padding : 30px;
+    font-family:'roboto';
+    text-align: center;
+  color: #888;
+  font-size: 20px;
+}
+
+input {
+    color: #fff;
+    margin: auto;
+    text-align: center;
+    font-family:'roboto';
+    font-size: 16px;
+    }
+
+input[type=button], input[type=submit], input[type=reset] {
+color: #fff !important;
+background: #000;
+padding: 8px;
+border: 3px solid #888 !important;
+border-radius: 4px;
+display: inline-block;
+transition: all 0.3s ease 0s;
+}
+
+input[type=submit]:hover {
+color: #888 !important;
+border-radius: 16px;
+border-color: #fff !important;
+transition: all 0.3s ease 0s;
+}
+
+.cipher_text{
+  display: block;
+  margin-right: auto;
+  margin-left: auto;
+}
+.plain_text{
+  display: block;
+  margin-right: auto;
+  margin-left: auto;
+}

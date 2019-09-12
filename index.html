@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Hello World</title>
+    <link rel="stylesheet" type="text/css" href="main.css">
+  </head>
+
+  <body>
+    <link href="https://fonts.googleapis.com/css?family=Raleway:200,100,400" rel="stylesheet" type="text/css" />
+    <center id = "intro">
+    <h1><span id="Hello">Hello World!</span></h1>
+    <h1> This is
+      <span id="Bravo" class="txt-rotate" data-period="20"
+        data-rotate='[ "S7rn93r Cipher","Code &ltBlooded&gt","inquistive."]'>
+      </span>
+    </h1>
+    <br/>
+    <form action = "http://localhost:5000/decrypt" method = "post">
+      <h2>Cipher Text</h2>
+      <input id = "cipher_text" name ="cipher_text" placeholder="Enter the cipher text here." style="margin: 0px; width: 700px; height: 90px; background-color: black"></input>
+      <br/><br/>
+      <input type = "submit" value = "Decrypt">
+    </form>
+    <br/>
+    <form action = "http://localhost:5000/encrypt" method = "post"> 
+      <h2>Plane Text</h2>
+      <input id = "cipher_text" name ="plane_text" placeholder="Enter the plane text here." style="margin: 0px; width: 700px; height: 90px; background-color: black"></input>
+      <br/><br/>
+      <input type = "submit" value = "Encrypt" class = "enc">
+    </form>
+    <script type = "text/javascript" src = "index.js"> $('cipher_text').autoResize();</script>
+  </center>
+  </body>
+</html>

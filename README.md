@@ -1,4 +1,4 @@
-# S7r4n93r CIpher
+# S7r4n93r Cipher
 S7r4n93r Cipher is inspired from Leet Translator/ Leet Speak
         Leet Speak (1337 5p34k), which means elite speak or eleet speak, is an alternative alphabet that replace usual letters with different ASCII characters. This alphabet is used to translate a text so it can be very hard to read for someone that isn't used to leet speak. It was firstly used that way to avoid people like lamers, crackers, script kiddies, ... to read texts that were destined to the "eleet".
 This "language" (which isn't really one) find its origins into the Bulletin Board Systems (or BBS), in the 80's. Some people say that it was actually first used to pass through text filters in these BBS, that doesn't allow people to talk about subjects as hacking, cracking, pornography, etc. A simple substitution would then break the filter rules, and allow people to freely discuss about any matter. The hackergroup "Cult of the Dead Cow" (or CDC) would have been the first to use the leet speak in their text files.
